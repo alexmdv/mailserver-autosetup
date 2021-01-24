@@ -1,4 +1,4 @@
-# mail-server-autosetup
+# mailserver-autosetup
 Script for automatic setup mail server on Debian 10 Buster
 
 Usage:
