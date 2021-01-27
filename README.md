@@ -7,5 +7,3 @@ Usage:
 3. Generate SSL and DKIM, add DKIM record into /etc/rspamd/dkim_selectors.map
 4. Restart the server
 5. Use mailuser-addnew.sh for creating new mail user, us mailuser-setpass.sh for changing passwords for existing users.
-
-More on https://alexmdv.ru/home-mailserver
