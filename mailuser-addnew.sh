@@ -3,14 +3,14 @@ pgadmpass="PASSWORD"
 
 echo "Mailbox user creation script"
 # Read Password
-echo -n Mailbox Username:
+echo -n "Mailbox Username:"
 read -r usrname
-echo -n Mailbox Domain (example.com):
+echo -n "Mailbox Domain (example.com):"
 read -r dmnname
-echo -n Password: 
+echo -n "Password:" 
 read -s password1
 echo
-echo -n Repeat password:
+echo -n "Repeat password:"
 read -s password2
 echo
 mysalt=$(pwgen 16 1)
