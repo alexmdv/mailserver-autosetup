@@ -5,7 +5,7 @@ echo "Mailbox user creation script"
 # Read Password
 echo -n Mailbox Username:
 read -r usrname
-echo -n Mailbox Domain:
+echo -n Mailbox Domain (example.com):
 read -r dmnname
 echo -n Password: 
 read -s password1
